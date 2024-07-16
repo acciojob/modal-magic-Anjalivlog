@@ -1,7 +1,7 @@
 //your JS code here. If required.
 document.addEventListener('DOMContentLoaded', function() {
     var modal = document.getElementById('modal');
-    var openModalBtn = document.getElementById('openModalBtn');
+    var openModalBtn = document.getElementById('openModal');
     var closeModalBtn = document.getElementById('closeModalBtn');
 
     openModalBtn.addEventListener('click', function() {
