@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     var modal = document.getElementById('modal');
     var openModalBtn = document.getElementById('openModal');
-    var closeModalBtn = document.getElementById('closeModalBtn');
+    var closeModalBtn = document.getElementById('close-modal');
 
     openModalBtn.addEventListener('click', function() {
         modal.style.display = 'block';
